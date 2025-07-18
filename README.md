@@ -72,11 +72,13 @@ MongoDB used from MongoDB Atlas
 
 ---
 ##🙌 Acknowledgements
+
 This project was built as part of the 3W Assessment Round 1.
 Special thanks to mentors and docs that helped guide the way!
 
 ---
 📝 License
+
 This project is for educational and internship task purposes only.
 
 ---
