@@ -1,0 +1,23 @@
+# Ignore node_modules in both frontend and backend
+leaderboard-frontend/node_modules/
+leaderboard-backend/node_modules/
+
+# Ignore .env files
+leaderboard-frontend/.env
+leaderboard-backend/.env
+
+# Ignore build or dist folders
+leaderboard-frontend/build/
+leaderboard-backend/dist/
+
+# Ignore log files
+*.log
+npm-debug.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
