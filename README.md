@@ -34,14 +34,16 @@ Leaderboard-project/
 │   └── models/
 │   └── routes/
 │   └── index.js
-
+```
 ---
 ## 🛠 Tech Stack
-Frontend: React, Vite, Axios, CSS
+Frontend: React,CSS
 
 Backend: Node.js, Express
 
 Database: MongoDB Atlas
 
 Deployment: Netlify (Frontend), Render (Backend)
+
+---
 
