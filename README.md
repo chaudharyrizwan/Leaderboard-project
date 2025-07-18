@@ -37,7 +37,7 @@ Leaderboard-project/
 ```
 ---
 ## 🛠 Tech Stack
-Frontend: React,CSS
+Frontend: React, CSS
 
 Backend: Node.js, Express
 
@@ -46,4 +46,39 @@ Database: MongoDB Atlas
 Deployment: Netlify (Frontend), Render (Backend)
 
 ---
+## ⚙️ Setup Instructions (for local development)
+```bash
+1. Clone the repo
+   git clone https://github.com/chaudharyrizwan/Leaderboard-project.git
+   cd Leaderboard-project
+
+2. Start Backend
+   cd leaderboard-backend
+   npm install
+   npm run index.js
+
+3. Start Frontend
+   cd leaderboard-frontend
+   npm install
+   npm run dev
+```
+---
+## 📦 Deployment Details
+Frontend hosted on Netlify
+
+Backend hosted on Render
+
+MongoDB used from MongoDB Atlas 
+
+---
+##🙌 Acknowledgements
+This project was built as part of the 3W Assessment Round 1.
+Special thanks to mentors and docs that helped guide the way!
+---
+📝 License
+This project is for educational and internship task purposes only.
+---
+## 📬 Contact
+Made with ❤️ by Rizwan Chaudhary
+
 
