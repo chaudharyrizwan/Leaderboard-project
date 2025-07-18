@@ -22,7 +22,7 @@ mongoose
   .then(async () => {
     console.log("Connected to MongoDB");
 
-    // Optional: clear old data
+    //clear old data
     await User.deleteMany({});
     console.log("Old users deleted");
 

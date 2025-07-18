@@ -5,7 +5,6 @@ if(process.env.NODE_ENV != "production"){
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-// require('dotenv').config(); // To read from .env file
 const userRoutes = require('./routes/userRoutes');
 const claimRoutes = require('./routes/claimRoutes');
 

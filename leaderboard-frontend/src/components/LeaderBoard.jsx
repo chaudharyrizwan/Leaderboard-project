@@ -4,7 +4,7 @@ function Leaderboard() {
   const [users, setUsers] = useState([])
 
   const fetchLeaderboard = async () => {
-    const res = await fetch('http://localhost:8080/api/users')
+    const res = await fetch('https://leaderboard-project-backend.onrender.com/api/users')
     const data = await res.json()
     const sorted = data.sort((a, b) => b.totalPoints - a.totalPoints)
     setUsers(sorted)

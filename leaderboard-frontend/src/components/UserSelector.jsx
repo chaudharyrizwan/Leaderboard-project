@@ -7,7 +7,7 @@ function UserSelector() {
 
   // Fetch all users from backend
   const fetchUsers = async () => {
-    const res = await fetch('http://localhost:8080/api/users')
+    const res = await fetch('https://leaderboard-project-backend.onrender.com/api/users')
     const data = await res.json()
     setUsers(data)
   }
@@ -23,7 +23,7 @@ function UserSelector() {
       return
     }
 
-    const res = await fetch('http://localhost:8080/api/claim', {
+    const res = await fetch('https://leaderboard-project-backend.onrender.com/api/claim', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ userId: selectedUser })
@@ -49,7 +49,7 @@ function UserSelector() {
   }
 
   try {
-    const res = await fetch('http://localhost:8080/api/users', {
+    const res = await fetch('https://leaderboard-project-backend.onrender.com/api/users', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name: newUserName })
